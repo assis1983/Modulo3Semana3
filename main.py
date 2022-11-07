@@ -2,7 +2,7 @@ def adicionar_item_estoque():
     itens_estoque = []
     nome = input('Nome do item: ')
     descricao = input('Descrição do item: ')
-    quantidade = input('Quantidade do item: ')
+    quantidade = int(input('Quantidade do item: '))
 
     item = {
         'nome': nome,
@@ -15,7 +15,7 @@ def adicionar_item_estoque():
 if __name__ == '__main__':
     print('Sistema de Estoque\n')
     opcao = 0
-    while opcao != 1:
+    while opcao != 2:
         print('Menu de Opções')
         print('==============')
         print('1 - Adicionar item no estoque')
