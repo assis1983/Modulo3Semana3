@@ -13,12 +13,12 @@ def adicionar_item_estoque():
     print(f'O item {nome} foi adicionado no estoque\n')
 
 def listar_itens_estoque():
-    print(20 * '*')
+    print(20 * '-')
 
     for item in itens_estoque:
         print(f'Nome: {item["nome"]}')
         print(f'Quantidade: {item["quantidade"]}')
-        print(20 * '*')
+        print(20 * '-')
     print()
 
 if __name__ == '__main__':
