@@ -18,6 +18,8 @@ def listar_itens_estoque():
     for item in itens_estoque:
         print(f'Nome: {item["nome"]}')
         print(f'Quantidade: {item["quantidade"]}')
+        print(f'Descrição: {item["descricao"]}')
+        
         print(20 * '-')
     print()
 
